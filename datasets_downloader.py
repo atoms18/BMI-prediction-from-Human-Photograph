@@ -1,4 +1,6 @@
 
+# python script to downloads all image from www.height-weight-chart.com
+
 import time
 
 import pandas
