@@ -1,1 +1,1 @@
-# BMI-prediction-from-Human-Image
+# BMI-prediction-from-Human-Photograph
