@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 URL = 'http://www.height-weight-chart.com'
 
-df = pandas.read_csv('height-weight-dataset.csv')
+df = pandas.read_csv('height-weight-chart_dataset.csv')
 
 for foot in range(4, 7):
     if foot == 4: continue
@@ -44,6 +44,6 @@ for foot in range(4, 7):
                         img_file.write(img_requests.content)
                         print(f"Download {file_name} completed")
                         df = df.append({"image_filename": file_name, "weight": pound, "foot": foot, "inch": inch}, ignore_index=True)
-                        df.to_csv('height-weight-dataset.csv', index=False)
+                        df.to_csv('height-weight-chart_dataset.csv', index=False)
                     i += 1
                     
