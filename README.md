@@ -16,11 +16,21 @@ Python >= 3.6, Keras, TensorFlow
 - The model do a work better with a photo with whole single body.
 
 ## Visualization
-* Source Image(Trump).
-<img src="./demo/trump.jpg" alt="trump" width="500"/>
-* Prediction(Trump).
-<img src="./demo/trump_result.PNG" alt="trump-result"/>
-* Source Image(Women).
-<img src="./demo/women.jpg" alt="women" width="500"/>
-* Prediction(Women).
-<img src="./demo/women_result.PNG" alt="women-result"/>
+<ul>
+  <li>
+    Source Image(Trump).<br>
+    <img src="./demo/trump.jpg" alt="trump" width="500">
+  </li>
+  <li>
+    Prediction(Trump).<br>
+    <img src="./demo/trump_result.PNG" alt="trump-result">
+  </li>
+  <li>
+    Source Image(Women).<br>
+    <img src="./demo/women.jpg" alt="women" width="500">
+  </li>
+  <li>
+    Prediction(Women).<br>
+    <img src="./demo/women_result.PNG" alt="women-result">
+  </li>
+</ul>
