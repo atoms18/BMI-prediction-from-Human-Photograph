@@ -16,12 +16,9 @@ For all the details, take a look at `bmi-prediction.ipynb`. There are a section 
 The model do a work better with a photo with whole single body.
 
 ## Visualization
-
 * Source Image.
-![trump](./demo/trump.jpg)
-* Prediction.
-![trump-result](./demo/trump_result.PNG)
+<img src="./demo/trump.jpg" alt="trump" width="500"/>
+<img src="./demo/trump_result.PNG" alt="trump-result"/>
 * Source Image.
-![women](./demo/women.jpg)
-* Prediction.
-![women-result](./demo/women_result.PNG)
+<img src="./demo/women.jpg" alt="women" width="500"/>
+<img src="./demo/women_result.PNG" alt="women-result"/>
